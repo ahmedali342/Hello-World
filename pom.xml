@@ -204,14 +204,12 @@
         <scope>test</scope>
       </dependency>
     </dependencies>
-  </dependencyManagement>
-         <distributionManagement>
-                  <snapshotRepository>
+         
+                   <snapshotRepository>
                            <id>deployment</id>
                            <name>Internal Snapshot Releases</name>
                            <url>http://192/168.21.130:8081/repository/samplesnap/</url>
                    <snapshotRepository>
-         <distributionManagement>      
   <scm>
     <connection>scm:git:git@github.com:jleetutorial/maven-project.git</connection>
     <developerConnection>scm:git:git@github.com:jleetutorial/maven-project.git</developerConnection>
