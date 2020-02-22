@@ -204,13 +204,13 @@
         <scope>test</scope>
       </dependency>
       
-      <build>
+      <dependency>
       <snapshotRepository>
         <id>deployment</id>
         <name>Internal Snapshot Releases</name>
         <url>http://192/168.21.130:8081/repository/samplesnap/</url>
       <snapshotRepository>
-      <build>
+      </dependency>
                
   <scm>
     <connection>scm:git:git@github.com:jleetutorial/maven-project.git</connection>
