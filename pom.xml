@@ -212,7 +212,14 @@
     <tag>HEAD</tag>
     <url>http://github.com/jleetutorial/maven-project</url>
   </scm>
-
+         
+<distributionManagement>
+   <snapshotRepository>
+      <id>samplesnap</id>
+      <url>http://http://192.168.21.130:8081/repository/samplesnap/</url>
+   </snapshotRepository>
+</distributionManagement>
+         
   <prerequisites>
     <maven>3.0.3</maven>
   </prerequisites>
